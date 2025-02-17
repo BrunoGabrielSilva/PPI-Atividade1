@@ -80,6 +80,12 @@ a:hover {
     text-decoration: none;
 }
 
+.logout-btn {
+    margin-top: 20px;
+    margin-right: 20px;
+    float: right;
+}
+
 /* Estilo para a quantidade de lugares */
 label {
     margin-top: 10px;

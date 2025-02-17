@@ -1,5 +1,3 @@
-// script.js
-
 document.addEventListener('DOMContentLoaded', function() {
     // Seleciona todos os elementos que possuem a classe 'quantidade'
     const quantidadeInputs = document.querySelectorAll('.quantidade');
