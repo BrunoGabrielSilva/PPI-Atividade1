@@ -1,0 +1,32 @@
+{
+  "name": "ppi-atividade1",
+  "version": "1.0.0",
+  "description": "Atividade 1 - PPI ",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrunoGabrielSilva/PPI-Atividade1.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "sessao",
+    "servidor",
+    "web",
+    "http"
+  ],
+  "author": "Bruno Gabriel da Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrunoGabrielSilva/PPI-Atividade1/issues"
+  },
+  "homepage": "https://github.com/BrunoGabrielSilva/PPI-Atividade1#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
