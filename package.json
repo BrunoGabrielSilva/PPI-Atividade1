@@ -27,7 +27,6 @@
   },
   "homepage": "https://github.com/BrunoGabrielSilva/PPI-Atividade1#readme",
   "dependencies": {
-    "body-parser": "^1.20.3",
     "express": "^4.21.2",
     "express-session": "^1.18.1"
   }

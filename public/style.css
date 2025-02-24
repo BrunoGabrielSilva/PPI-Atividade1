@@ -37,6 +37,14 @@ h1 {
     font-weight: bold;
 }
 
+.navbar-custom {
+    background-color: #ffcc00;
+}
+
+.navbar-custom .navbar-brand, .navbar-custom .nav-link{
+    color: #004a80;
+}
+
 /* Estilo para os cards de pacotes */
 .card {
     border: 1px solid #ddd;

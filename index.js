@@ -17,7 +17,7 @@ app.use(session({
     }   
 }));
 
-app.get('/login', (requisicao, resposta) => {
+app.get('/login', (_requisicao, resposta) => {
   resposta.redirect('/login.html');
 });
 
@@ -26,7 +26,7 @@ app.post('/login', (requisicao, resposta) => {
     const senha = requisicao.body.senha;
     if (usuario === 'admin' && senha === 'admin') {
         requisicao.session.autenticado = true;
-        resposta.redirect('index.html');
+        resposta.redirect('detalhes.html');
     } else {
         resposta.redirect('/login.html');
     }

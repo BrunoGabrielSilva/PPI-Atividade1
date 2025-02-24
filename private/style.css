@@ -30,6 +30,7 @@ h1 {
 }
 
 /* Estilo para os cards de pacotes */
+
 .card {
     border: 1px solid #ddd;
     border-radius: 10px;
@@ -38,7 +39,8 @@ h1 {
     margin-bottom: 20px;
 }
 
-.card img {
+.card im
+g {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
